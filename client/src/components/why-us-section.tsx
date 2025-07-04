@@ -61,22 +61,7 @@ export default function WhyUsSection() {
           })}
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div>
-            <img
-              src="/attached_assets/Screenshot 2025-07-04 at 1.46.34 PM_1751651224960.png"
-              alt="Pharmaceutical research and development cellular analysis"
-              className="rounded-xl shadow-lg w-full h-auto"
-            />
-          </div>
-          <div>
-            <img
-              src="/attached_assets/Screenshot 2025-07-04 at 1.46.44 PM_1751651230513.png"
-              alt="Pharmaceutical capsules and OSD manufacturing compliance"
-              className="rounded-xl shadow-lg w-full h-auto"
-            />
-          </div>
-        </div>
+
       </div>
     </section>
   );

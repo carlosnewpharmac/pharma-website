@@ -4,14 +4,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <img
-              src="/attached_assets/Screenshot 2025-07-04 at 1.46.44 PM_1751651230513.png"
-              alt="Pharmaceutical capsules and solid dosage forms for quality compliance"
-              className="rounded-xl shadow-lg w-full h-auto"
-            />
-          </div>
+        <div className="max-w-4xl mx-auto text-center">
           <div>
             <h2 className="text-3xl font-bold text-pharma-navy mb-6">About Pharma Compliance Experts</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">

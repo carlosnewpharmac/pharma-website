@@ -34,22 +34,15 @@ export default function MissionSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <h3 className="text-2xl font-semibold text-pharma-navy mb-6">Our Mission</h3>
+        <div className="text-center mb-16">
+          <h3 className="text-2xl font-semibold text-pharma-navy mb-6">Our Mission</h3>
+          <div className="max-w-4xl mx-auto">
             <p className="text-gray-600 mb-6 leading-relaxed">
               At Pharma Compliance Expert, our mission is to empower pharmaceutical, biotechnology, and medical device companies to navigate the complex regulatory landscape with precision, integrity, and excellence.
             </p>
             <p className="text-gray-600 leading-relaxed">
               We are committed to fostering a culture of compliance that prioritizes patient safety, innovation, and ethical practices, ensuring that every organization we serve can achieve its full potential in delivering transformative healthcare solutions.
             </p>
-          </div>
-          <div>
-            <img
-              src="/attached_assets/Screenshot 2025-07-04 at 1.46.34 PM_1751651224960.png"
-              alt="Pharmaceutical research and cellular analysis for drug development"
-              className="rounded-xl shadow-lg w-full h-auto"
-            />
           </div>
         </div>
 

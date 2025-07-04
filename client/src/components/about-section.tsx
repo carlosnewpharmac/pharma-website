@@ -7,8 +7,8 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Pharmaceutical laboratory with quality control testing and OSD manufacturing"
+              src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Pharmaceutical tablet press and coating equipment for OSD manufacturing"
               className="rounded-xl shadow-lg w-full h-auto"
             />
           </div>

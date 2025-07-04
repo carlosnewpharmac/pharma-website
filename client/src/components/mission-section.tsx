@@ -46,8 +46,8 @@ export default function MissionSection() {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Pharmaceutical consultants reviewing GMP compliance documentation"
+              src="https://images.unsplash.com/photo-1631815592800-b0c5d4b5b3e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Pharmaceutical manufacturing blending and granulation equipment for OSD production"
               className="rounded-xl shadow-lg w-full h-auto"
             />
           </div>

@@ -46,7 +46,7 @@ export default function AboutSection() {
                 <Globe className="text-pharma-blue h-6 w-6 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-pharma-navy mb-2">Global Standards</h3>
-                  <p className="text-gray-600 text-sm">Compliance with FDA, EMA, and international authorities</p>
+                  <p className="text-gray-600 text-sm">Compliance with FDA, EMA, and regulatory authorities</p>
                 </div>
               </div>
             </div>

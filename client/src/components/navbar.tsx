@@ -63,6 +63,14 @@ export default function Navbar() {
                 Home
               </button>
               <button
+                onClick={() => scrollToSection("mission")}
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  activeSection === "mission" ? "text-pharma-blue" : "text-pharma-navy hover:text-pharma-blue"
+                }`}
+              >
+                Mission
+              </button>
+              <button
                 onClick={() => scrollToSection("about")}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   activeSection === "about" ? "text-pharma-blue" : "text-pharma-navy hover:text-pharma-blue"
@@ -117,6 +125,12 @@ export default function Navbar() {
               className="text-pharma-navy hover:text-pharma-blue block px-3 py-2 rounded-md text-base font-medium w-full text-left"
             >
               Home
+            </button>
+            <button
+              onClick={() => scrollToSection("mission")}
+              className="text-pharma-navy hover:text-pharma-blue block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+            >
+              Mission
             </button>
             <button
               onClick={() => scrollToSection("about")}

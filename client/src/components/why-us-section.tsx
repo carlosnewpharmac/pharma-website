@@ -46,7 +46,7 @@ export default function WhyUsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {advantages.map((advantage, index) => {
             const IconComponent = advantage.icon;
             return (
@@ -59,6 +59,23 @@ export default function WhyUsSection() {
               </div>
             );
           })}
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Pharmaceutical manufacturing OSD solid dosage forms production line"
+              className="rounded-xl shadow-lg w-full h-auto"
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Pharmaceutical quality control laboratory with compliance testing"
+              className="rounded-xl shadow-lg w-full h-auto"
+            />
+          </div>
         </div>
       </div>
     </section>

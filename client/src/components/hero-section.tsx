@@ -45,8 +45,8 @@ export default function HeroSection() {
           </div>
           <div className="lg:text-right">
             <img
-              src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Pharmaceutical laboratory with compliance documentation and regulatory standards"
+              src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Pharmaceutical manufacturing facility with OSD solid dosage production line"
               className="rounded-xl shadow-2xl w-full h-auto"
             />
           </div>

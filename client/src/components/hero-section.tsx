@@ -25,7 +25,7 @@ export default function HeroSection() {
               <span className="text-pharma-blue">Regulatory Excellence</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Pharma Compliance Experts operate at the nexus of regulatory proficiency and pharmaceutical innovation, offering unmatched consulting services tailored to meet the dynamic needs of the pharmaceutical industry.
+              At Pharma Compliance Expert, our mission is to empower pharmaceutical, biotechnology, and medical device companies to navigate the complex regulatory landscape with precision, integrity, and excellence. We are committed to fostering a culture of compliance that prioritizes patient safety, innovation, and ethical practices, ensuring that every organization we serve can achieve its full potential in delivering transformative healthcare solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button

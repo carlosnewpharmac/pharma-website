@@ -3,9 +3,9 @@ import { GraduationCap, Wrench, AlertTriangle, Users, Laptop, Globe } from "luci
 export default function WhyUsSection() {
   const advantages = [
     {
-      icon: GraduationCap,
-      title: "Deep Regulatory Expertise",
-      description: "Comprehensive knowledge of global regulatory frameworks, including FDA, EMA, and other authorities. Our proactive approach minimizes risks and keeps your company prepared for inspections and audits."
+      icon: Globe,
+      title: "Global Standards",
+      description: "Compliance with FDA, EMA, and regulatory authorities"
     },
     {
       icon: Wrench,
@@ -15,7 +15,7 @@ export default function WhyUsSection() {
     {
       icon: AlertTriangle,
       title: "Proactive Risk Mitigation",
-      description: "Excel at identifying potential risks and implementing mitigation strategies using tools like FMEA and HACCP, maintaining compliance and safeguarding operations."
+      description: "Excel at identifying potential risks and implementing mitigation strategies using ICH (Q9) tools like FMEA, FMECA, FTA and HACCP."
     },
     {
       icon: Users,
@@ -28,9 +28,9 @@ export default function WhyUsSection() {
       description: "Guide organizations in adopting tools like electronic Quality Management Systems (eQMS), real-time monitoring platforms, and digital documentation processes."
     },
     {
-      icon: Globe,
-      title: "Facilitating Global Market Access",
-      description: "Bring a global perspective, ensuring that supply chains, manufacturing processes, and documentation meet the requirements of multiple regulatory authorities."
+      icon: GraduationCap,
+      title: "Deep Regulatory Expertise",
+      description: "Comprehensive knowledge of global regulatory frameworks, including FDA, EMA, and other authorities. Our proactive approach minimizes risks and keeps your company prepared for inspections and audits."
     }
   ];
 

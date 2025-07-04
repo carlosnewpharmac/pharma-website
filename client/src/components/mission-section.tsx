@@ -46,8 +46,8 @@ export default function MissionSection() {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Pharmaceutical manufacturing blending and granulation equipment for OSD production"
+              src="/attached_assets/Screenshot 2025-07-04 at 1.46.34 PM_1751651224960.png"
+              alt="Pharmaceutical research and cellular analysis for drug development"
               className="rounded-xl shadow-lg w-full h-auto"
             />
           </div>

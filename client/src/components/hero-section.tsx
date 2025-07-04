@@ -45,8 +45,8 @@ export default function HeroSection() {
           </div>
           <div className="lg:text-right">
             <img
-              src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Pharmaceutical tablet manufacturing equipment and OSD production machinery"
+              src="/attached_assets/Screenshot 2025-07-04 at 1.46.44 PM_1751651230513.png"
+              alt="Pharmaceutical capsules and OSD solid dosage forms"
               className="rounded-xl shadow-2xl w-full h-auto"
             />
           </div>

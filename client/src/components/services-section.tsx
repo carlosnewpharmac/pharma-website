@@ -103,8 +103,8 @@ export default function ServicesSection() {
           </p>
           <div className="max-w-4xl mx-auto">
             <img
-              src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=400"
-              alt="Pharmaceutical manufacturing equipment including blenders, granulators and tablet presses for OSD production"
+              src="/attached_assets/Screenshot 2025-07-04 at 1.46.44 PM_1751651230513.png"
+              alt="Pharmaceutical capsules and solid dosage forms representing our comprehensive services"
               className="rounded-xl shadow-lg w-full h-auto mb-8"
             />
           </div>

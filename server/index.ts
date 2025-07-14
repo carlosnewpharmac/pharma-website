@@ -59,9 +59,10 @@ app.use((req, res, next) => {
   // Serve the app on port 3000 for development
   // this serves both the API and the client.
   const port = process.env.PORT || 3000;
+  const host = process.env.RENDER ? "0.0.0.0" : "localhost";
   server.listen({
     port,
-    host: "localhost",
+    host,
   }, () => {
     log(`serving on port ${port}`);
   });

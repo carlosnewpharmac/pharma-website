@@ -20,11 +20,11 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-pharma-navy mb-6">
-            Innovative Consulting Solutions for{" "}
-            <span className="text-pharma-blue">Regulatory Excellence</span>
+            Leading <span className="text-pharma-blue">Pharmaceutical Consulting</span> for{" "}
+            <span className="text-pharma-blue">FDA Compliance</span> & Regulatory Excellence
           </h1>
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-            At Pharma Compliance Expert, our mission is to empower pharmaceutical, biotechnology, and medical device companies to navigate the complex regulatory landscape with precision, integrity, and excellence. We are committed to fostering a culture of compliance that prioritizes patient safety, innovation, and ethical practices, ensuring that every organization we serve can achieve its full potential in delivering transformative healthcare solutions.
+            Pharma Compliance Experts is your trusted partner for comprehensive pharmaceutical regulatory consulting services. We specialize in FDA compliance, GMP consulting, quality management systems, and regulatory filings for pharmaceutical, biotechnology, and medical device companies worldwide. Our expert consultants help you navigate complex regulatory landscapes with precision, ensuring compliance excellence and business success.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

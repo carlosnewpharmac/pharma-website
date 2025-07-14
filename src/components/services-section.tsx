@@ -1,3 +1,4 @@
+import React from "react";
 import { 
   ClipboardList, 
   Search, 
@@ -13,22 +14,22 @@ export default function ServicesSection() {
   const services = [
     {
       icon: ClipboardList,
-      title: "Compliance Management",
-      description: "Streamline regulatory compliance across global markets with robust frameworks and GMP adherence.",
+      title: "Pharmaceutical Compliance Management",
+      description: "Comprehensive FDA compliance and regulatory consulting services for pharmaceutical companies with robust frameworks and GMP adherence.",
       features: [
-        "Robust compliance frameworks",
+        "FDA compliance frameworks",
         "GMP adherence guidance",
-        "Data integrity compliance"
+        "Pharmaceutical regulatory consulting"
       ]
     },
     {
       icon: Search,
-      title: "Good Manufacturing Practices",
-      description: "Achieve GMP excellence through facility audits, staff training, and compliance monitoring systems.",
+      title: "GMP Consulting & Good Manufacturing Practices",
+      description: "Expert GMP consulting services for pharmaceutical manufacturing with facility audits, staff training, and compliance monitoring systems.",
       features: [
-        "Manufacturing facility audits",
-        "GMP principles training",
-        "Compliance monitoring systems"
+        "Pharmaceutical manufacturing audits",
+        "GMP consulting services",
+        "Pharmaceutical compliance monitoring"
       ]
     },
     {
@@ -43,12 +44,12 @@ export default function ServicesSection() {
     },
     {
       icon: FileText,
-      title: "Regulatory Filings",
-      description: "Expert assistance in compiling, submitting, and managing regulatory documentation for approvals.",
+      title: "Pharmaceutical Regulatory Filings",
+      description: "Expert pharmaceutical regulatory consulting for FDA submissions, drug approvals, and regulatory documentation management.",
       features: [
-        "Drug approvals and renewals",
-        "Clinical trial applications",
-        "Post-marketing surveillance"
+        "FDA drug approvals",
+        "Pharmaceutical regulatory submissions",
+        "Clinical trial regulatory support"
       ]
     },
     {
@@ -97,9 +98,9 @@ export default function ServicesSection() {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-pharma-navy mb-4">Our Comprehensive Services</h2>
+          <h2 className="text-3xl font-bold text-pharma-navy mb-4">Pharmaceutical Regulatory Consulting Services</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Providing end-to-end solutions for pharmaceutical compliance and quality excellence
+            Comprehensive FDA compliance, GMP consulting, and pharmaceutical regulatory services for biotechnology and medical device companies
           </p>
         </div>
 

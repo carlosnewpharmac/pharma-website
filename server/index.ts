@@ -1,6 +1,7 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+import path from "path";
 
 const app = express();
 app.use(express.json());
@@ -38,6 +39,14 @@ app.use((req, res, next) => {
 
 (async () => {
   const server = await registerRoutes(app);
+
+  // Serve sitemap.xml and robots.txt explicitly
+  app.get("/sitemap.xml", (req, res) => {
+    res.sendFile(path.join(__dirname, "../public/sitemap.xml"));
+  });
+  app.get("/robots.txt", (req, res) => {
+    res.sendFile(path.join(__dirname, "../public/robots.txt"));
+  });
 
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     const status = err.status || err.statusCode || 500;

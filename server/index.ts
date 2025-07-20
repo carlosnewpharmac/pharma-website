@@ -44,11 +44,13 @@ app.use((req, res, next) => {
 (async () => {
   const server = await registerRoutes(app);
 
-  // Serve sitemap.xml and robots.txt explicitly
+  // Serve sitemap.xml and robots.txt explicitly with correct content type
   app.get("/sitemap.xml", (req, res) => {
+    res.type("application/xml");
     res.sendFile(path.join(__dirname, "../public/sitemap.xml"));
   });
   app.get("/robots.txt", (req, res) => {
+    res.type("text/plain");
     res.sendFile(path.join(__dirname, "../public/robots.txt"));
   });
 
